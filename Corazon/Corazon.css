@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+#box{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 200px;
+    height: 200px;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.25);}
+    100% {transform: scale(1);}
+}
+
+#triangulo{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 0;
+    height: 0;
+    border-left: 48px solid transparent ;
+    border-right: 48px solid transparent;
+    border-top: 60px solid red;
+}
+
+#circulo{
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    width: 30%;
+    height: 20%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#circulo2{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    width: 30%;
+    height: 20%;
+    background-color: red;
+    border-radius: 50%;
+}
+

@@ -1,0 +1,35 @@
+body{
+   background-color: aqua; 
+}
+
+#box{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+   
+}
+
+
+
+#circulo{
+    position:absolute;
+    top: 26%;
+    left:35%;
+    display:inline-block;
+    width: 33.3%;
+    height: 25%;
+    background-color: #FF729F;
+    border-radius: 50%;
+}
+
+#triangulo{
+    position:absolute;
+    top:40%;
+    left:35%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 150px solid #CF9950;     
+}
